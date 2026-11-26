@@ -25,7 +25,7 @@ streamlit run app.py
 
 The training script downloads the public dataset into `data/` on first run and saves reproducible artifacts into `models/`. Generated model binaries and metadata are intentionally ignored by Git; they can always be recreated with `python train.py`.
 
-## Project structure
+## Project Technical structure
 
 ```text
 ├── app.py                 # Streamlit dashboard
